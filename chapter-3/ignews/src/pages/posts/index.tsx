@@ -29,7 +29,7 @@ export default function Posts({posts}: PostProps) {
         <div className={styles.posts}>
           {posts.map(post => (
             <Link href={`/posts/${post.slug}`} key={post.slug}>
-              <a >
+              <a>
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
                 <p>{post.except}</p>
