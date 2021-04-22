@@ -58,6 +58,7 @@ export default function CreateUser() {
               <SimpleGrid minChildWidth="240px" spacing={["6", "8"]} w="100%">
                 <Input 
                   name="name" 
+                  type="text"
                   label="Nome Completo" 
                   error={errors.name}
                   {...register('name')}
