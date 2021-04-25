@@ -162,6 +162,7 @@ async function handlePrefetchUser(userId: string){
 }
 
 /*
+TODO: Página quebrando com isso descomentado, aguardando proximas aulas.
 export const getServerSideProps: GetServerSideProps = async () => {
   const { users, totalCount } = await getUsers(1)
   
