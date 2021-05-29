@@ -160,15 +160,3 @@ async function handlePrefetchUser(userId: string){
     </Box>
   )
 }
-
-/*
-TODO: Página quebrando com isso descomentado, aguardando proximas aulas.
-export const getServerSideProps: GetServerSideProps = async () => {
-  const { users, totalCount } = await getUsers(1)
-  
-  return {
-    props: {
-      users,
-    }
-  }
-} */
